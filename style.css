@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.habil-title{
+    font-family: "Gochi Hand", cursive;
+}
+body {
+    background-color: #C0632D;
+    width: 100vw;
+    height: 100vh;
+}
+  
+.nav-list , #navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    border: none;
+    background-color: #21618C;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    min-height: 50px;
+}
+.nav-a {
+    padding-right: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-family: "Anton", sans-serif;
+}
+.box{
+    min-height: 100vh;
+    width:100vw;
+    background-image:
+    linear-gradient(rgba(163, 106, 31, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://fondosmil.com/fondo/26850.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+h1 {
+    text-align: center;
+    font-family: "Yeseva One", cursive;
+    font-size: 3em;
+    color: white;
+}
+#princ-p{
+    text-align: center;
+    margin-top: 2%;
+    color: white;
+    font-family: "Gochi Hand", cursive;
+    font-size: 1.5em;
+}
+#welcome-section {
+    min-height: 100vh;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+.welcome{
+    text-align: center;
+    font-family: "Yeseva One", cursive;
+    font-size: 2em;
+    color: white;
+}
+#code-p{
+    font-size: 1.5em;
+    text-align: center;
+    font-family: "Gochi Hand", cursive;
+    margin-top: 2%;
+    color: white;
+    background-color: #000;
+}
+.yo{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display:block;
+    margin:auto;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+ }
+
+#habil {
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.habil-section-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Yeseva One", cursive;
+    font-size: 2em;
+    min-height: 150px;
+    color: white;
+    background-color: #000;
+}
+.habiles-grid {
+    min-height: 300px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 40px;
+    background-color: rgb(0, 0, 0);
+}
+.habil-image {
+    width: 100%;
+    height: 95%;
+    font-family: "Gochi Hand", cursive;
+}
+.habil-image-si {
+    top:100px;
+    width: 100%;
+    height: 85%;
+    font-family: "Gochi Hand", cursive;
+}
+.grid-habil {
+    text-align: center;
+    margin: 10% auto 10% auto;
+    border: 2px solid white;
+    width:90%;
+}
+
+.habil-tile {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4em;
+    font-family: "Gochi Hand", cursive;
+}
+.btn-primary{
+    background-color: #047DFF;
+}
+.contacto{
+    width: 500px;
+    margin:auto;
+    border-radius: 10px;
+
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Yeseva One", cursive;
+    font-size: 2em;
+    min-height: 150px;
+    color: white;
+   
+}
+input, textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    border: 2px solid #21618C;
+    outline: none;
+    background-color: white;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    font-size: 1.5em;
+}
+input:focus, textarea:focus{
+    background-color: #21618C;
+    color: white;
+}
+.icono-input{
+    position: relative;
+}
+.icono-input input{
+    width: 100%;
+    padding-left: 10px;
+}
+textarea{
+    resize: none;
+}
+select{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+input[type=submit]{
+    width: 40%;
+    padding: 10px 20px;
+    font-size: 1.4em;
+    font-weight: bold;
+    border: none;
+    color:white;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+input[type=submit]{
+    background-color: #1976D2;
+}
+input[type=submit]:hover{
+    background-color: #1A237E  ;
+}
+
+
+.sociales {
+    color: white;
+    font-size: 1.3em;
+    text-align: center;
+    font-family: "Yeseva One", cursive;
+}
+.sociales-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn,
+.sociales-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+    border-radius: 2px;
+    text-decoration: none;
+    color: white;
+}
+i {
+    font-size: 5em;
+    color: white;
+    margin: 50px auto 10px auto;
+}
+footer {
+    padding: 4em;
+    background-color: #21618C;
+    text-align: center;
+    color: white;
+    font-family: "Arial";
+}
+@media (max-width: 768px) {
+    .nav-list {
+        justify-content: center; 
+    }
+    h1{
+        font-size: 2em;
+    }
+    #welcome-p{
+        font-size:1.2em;
+        margin-top:5%;
+    }
+    .habil-section-header {
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .habiles-grid {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr;
+        grid-gap: 30px;
+        background-color: rgb(0, 0, 0);
+    }
+    i{
+        font-size:2em;
+    }
+    .sociales{
+        font-size: 1.1em;
+    }
+    @media (max-width: 281px){
+        .nav-a {
+            font-size:1em
+        }
+        .sociales-details {
+            padding: 10px 10px 10px 10px;
+        }
+    }
+}

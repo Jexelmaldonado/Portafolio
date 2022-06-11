@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UFT-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Personal</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav id="navbar" class="navbar">
+      <ul class="nav-list">
+        <li>
+          <a class="nav-a" href="#welcome-section">Sobre mi</a>
+        </li>
+        <li>
+          <a class="nav-a" href="#habiles">Habilidades</a>
+        </li>
+        <li>
+          <a class="nav-a" href="#contacto-box">Contacto</a>
+        </li>
+        <li>
+          <a class="nav-a" href="#sociales">Redes</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="box">
+      <div>
+        <h1>Portafolio Web</h1>
+        <p id="princ-p">Jexel Maldonado</p>
+      </div>
+    </section>
+
+    <!-- /Welcome Section -->
+    <section id="welcome-section">
+      <div>
+        <h2 class="welcome">Sobre mi</h2>
+        <p id="code-p">Soy estudiante de 12 Bachillerato Técnico Profesional en Informática en el Instituto Marista La Inmaculada. Soy una persona amable, social, me gusta mucho convivir con mis amigos y familia, demostrando siempre mi actitud y forma de ser. Mantengo siempre mente positiva y optimista a pesar de las dificultades que se presenten, siempre hallando un buen lugar a esa situación. Mantengo mi idea de estudios en diseñar y tener mi propia creatividad en cada proyecto o trabajo que realice, cumpliendo un rol importante y con el fin a cabo de superarme y llevar una experiencia correcta.</p><br>
+        <img class="yo" src="img/yo.jpg" alt="">
+      </div>
+    </section>
+
+    <!-- /Habilidades-->
+    <section id="habiles">
+      <h2 class="habil-section-header">
+        Habilidades
+      </h2>
+      <div class="habiles-grid">
+        <div class="grid-habil">
+          <a target="_blank" class="habil habil-tile">
+            <img class="habil-image" src="img/draw.jpg" alt="Project-1"/>
+            <p class="habil-title">
+              <span class="code">&lt;</span>
+              Dibujo
+              <span class="code">&#47;&gt;</span>
+            </p>
+          </a>
+        </div>
+        <div class="grid-habil">
+          <a target="_blank" class="habil habil-tile">
+            <img class="habil-image" src="img/compe.jpg" alt="Project-2"/>
+            <p class="habil-title">
+              <span class="code">&lt;</span>
+              Competencia
+              <span class="code">&#47;&gt;</span>
+            </p>
+          </a>
+        </div>
+        <div class="grid-habil">
+          <a target="_blank" class="habil habil-tile">
+            <img class="habil-image" src="img/moti.jpg" alt="Project-3"/>
+            <p class="habil-title">
+              <span class="code">&lt;</span>
+              Motivación
+              <span class="code">&#47;&gt;</span>
+            </p>
+          </a>
+        </div>
+        <div class="grid-habil">
+          <a target="_blank" class="habil habil-tile">
+            <img class="habil-image" src="img/pacific.jpg" alt="Project-4"/>
+            <p class="habil-title">
+              <span class="code">&lt;</span>
+              Paciencia
+              <span class="code">&#47;&gt;</span>
+            </p>
+          </a>
+        </div>
+        <div class="grid-habil">
+          <a target="_blank" class="habil habil-tile">
+            <img class="habil-image-si" src="img/com.jpg" alt="Project-5"/>
+            <p class="habil-title">
+              <span class="code">&lt;</span>
+              Comunicación
+              <span class="code">&#47;&gt;</span>
+            </p>
+          </a>
+        </div>
+        <div class="grid-habil">
+          <a target="_blank" class="habil habil-tile">
+            <img class="habil-image" src="img/auto.webp" alt="Project-5"/>
+            <p class="habil-title">
+              <span class="code">&lt;</span>
+              Autodominio
+              <span class="code">&#47;&gt;</span>
+            </p>
+          </a>
+        </div>    
+    </section>
+    
+    <div class="contacto">
+      <section id="contacto-box">
+        <h2>Contacto</h2>
+        <form>
+          <label for="nombre"></label>
+          <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+          <label for="correo"></label>
+          <div class="icono-input">
+            <input type="email" name="correo" id="correo" placeholder="Correo">
+          </div>
+          <label for="mensaje"></label>
+          <textarea name="mensaje" id="mensaje" placeholder="Mensaje" rows="7"></textarea>
+          <input type="submit" value="Enviar">
+        </form>
+      </section>
+    </div>
+  
+    <!--SOCIALES SECTION-->
+
+    <section id="sociales" class="sociales-section" >
+      <div class="sociales-section-header">
+        <h2 class="contact">Puedes contactarme a traves de mis redes sociales</h2>
+      </div>
+      <div class="sociales-links">
+        <a href="https://www.facebook.com/misael.maldonado.908/" target="_blank" class="btn sociales-details"
+        id="profile-link">
+        <i class="fab fa-facebook-square"></i> Facebook
+        </a>
+        <a href="https://github.com/Jexelmaldonado" target="_blank" class="btn sociales-details">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        <a
+          href="https://www.instagram.com/jmdo_20.pdf/?hl=es-la" target="_blank" class="btn sociales-details"  >
+        <i class="fa-brands fa-instagram"></i> Instagram
+        </a>
+        <a href="https://wa.me/50497293850" target="_blank" class="btn sociales-details">
+          <i class="fa-brands fa-whatsapp"></i>WhatsApp
+        </a>
+      </div>
+    </section>
+
+    <!--FOOTER SECTION-->
+
+    <footer>
+      <p>
+        Este es un proyecto de portafolio personal creado por mi persona, los
+        proyectos que se presentan son basicos y hechos con el fin de practicar
+        y experimentar.
+      </p>
+      <h3>&copy; Jexel Maldonado - Diseño Web 2022</h3>
+    </footer>
+  </body>
+</html>
